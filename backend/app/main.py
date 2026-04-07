@@ -11,7 +11,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"
-                   ],
+                   "https://churn-predictor-2-19zc.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
